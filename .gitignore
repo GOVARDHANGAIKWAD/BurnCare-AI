@@ -1,0 +1,62 @@
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.npm/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.pytest_cache/
+
+# Databases
+burncare.db
+*.sqlite3
+*.db-journal
+
+# Datasets & Generated images (generated deterministically by ml scripts)
+data/raw/
+data/processed/
+
+# Model Checkpoint Weights (large binary files >45MB)
+ml/weights/*.pth
+ml/weights/*.onnx
+!ml/weights/.gitkeep
+
+# Runtime generated uploads & reports
+data/uploads/*
+!data/uploads/.gitkeep
+data/heatmaps/*
+!data/heatmaps/.gitkeep
+data/reports/*
+!data/reports/.gitkeep
+
+# Environment & Credentials
+.env
+!.env.example
+
+# Logs & Temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo

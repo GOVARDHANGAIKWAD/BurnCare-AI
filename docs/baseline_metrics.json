@@ -1,0 +1,18 @@
+{
+  "model": "Reference Paper Baseline (LUV + CLAHE + MLP)",
+  "accuracy": 0.8177777777777778,
+  "precision": 0.8306451612903226,
+  "recall": 0.8373983739837398,
+  "f1_score": 0.8340080971659919,
+  "roc_auc": 0.9211700940538818,
+  "confusion_matrix": [
+    [
+      81,
+      21
+    ],
+    [
+      20,
+      103
+    ]
+  ]
+}
